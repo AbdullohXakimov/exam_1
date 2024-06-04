@@ -64,10 +64,12 @@
             </svg>
           </button>
         </div>
-        <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-2">
+        <div class="grid grid-cols-3 gap-4 pt-10">
+            <div class=" relative col-span-2">
                 <img src="/Card.png" alt="">
+                <div class="w-[47%] absolute left-0 top-0 h-[100%] bg-[#12155cc7] z-10" ></div>
             </div>
+
             <div>
                 <img src="/second.png" alt="">
                 <img class="pl-2 pt-8"  src="/third.png" alt="">
