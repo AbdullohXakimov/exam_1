@@ -4,7 +4,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: "/",
+      path: "",
       name: "home",
       component: import("../pages/Home.vue"),
     },
