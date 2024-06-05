@@ -120,7 +120,7 @@
       </div>
     </div>
     <div class="container mt-2 pb-20">
-        <div class="flex bg-[#FCD980] p-6 mr-[760px]">
+        <div class="flex bg-[#FCD980] p-6 w-[560px]">
           <div class="mr-12">
             <h3 class="text-[#282938] text-[20px] leading-[32px] font-semibold">
               Email me at

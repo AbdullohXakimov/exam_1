@@ -12,7 +12,7 @@
           </p>
           <div class="flex items-center gap-2">
             <button
-              class="rounded-[41px] px-10 py-3 text-[#1B1C2B] bg-[#FCD980]"
+              class="rounded-[41px] px-10 py-3 text-[#1B1C2B] bg-[#FCD980] hover:bg-[#b6964488]"
             >
               View our work
             </button>
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="w-6/12">
-          <img src="/Illustration.png" alt="" />
+          <img  class="w-full" src="/Illustration.png" alt="" />
         </div>
       </div>
     </div>
@@ -64,9 +64,9 @@
             </svg>
           </button>
         </div>
-        <div class="grid grid-cols-3 gap-4 pt-10">
+        <div class="grid grid-cols-3 gap-4 gap-y-2 pt-10">
           <div class="overflow-hidden group relative col-span-2">
-            <img src="/Card.png" alt="" />
+            <img class="w-full" src="/Card.png" alt="" />
             <div
               class="w-[47%] absolute -left-full group-hover:left-0 duration-500 top-0 h-[100%] bg-[#12155cad] z-10 flex flex-col justify-end pb-20"
             >
@@ -103,8 +103,8 @@
             </div>
           </div>
 
-          <div>
-            <div class="relative ml-2 overflow-hidden group">
+          <div class="">
+            <div class="relative ml-2 overflow-hidden group mb-2">
               <img class="w-[100%]" src="/second.png" alt="" />
               <div
                 class="w-[100%] absolute -left-full duration-500 group-hover:left-0 top-0 h-[100%] bg-[#12155cad] z-10 flex flex-col justify-end p-10"
@@ -133,7 +133,35 @@
                 </button>
               </div>
             </div>
-            <img class="ml-2 pt-8" src="/third.png" alt="" />
+            <div class="relative ml-2 overflow-hidden group" >
+              <img class="ml-2 pt-8 w-full" src="/third.png" alt="" />
+            <div
+                class="w-[100%] absolute -left-full duration-500 group-hover:left-0 top-0 h-[100%] bg-[#12155cad] z-10 flex flex-col justify-end p-10"
+              >
+                <h1
+                  class="text-[26px] font-bold leading-[36px] text-white mx-11"
+                >
+                  Unisaas Website Design
+                </h1>
+                <button
+                  class="text-[#FCD980] mx-11 mt-4 flex gap-2 items-center"
+                >
+                  <span>View portfolio</span>
+                  <svg
+                    width="25"
+                    height="12"
+                    viewBox="0 0 25 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                      fill="#FCD980"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

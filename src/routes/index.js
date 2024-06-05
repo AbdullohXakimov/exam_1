@@ -18,6 +18,16 @@ const router = createRouter({
       name: "pricing",
       component: () => import("../pages/Pricing.vue"),
     },
+    {
+      path: "/blog",
+      name: "blog",
+      component: () => import("../pages/Blog.vue"),
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: () => import("../pages/Contact.vue"),
+    },
   ],
 });
 

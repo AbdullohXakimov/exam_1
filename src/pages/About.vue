@@ -15,7 +15,7 @@
           </p>
         </div>
         <div>
-          <img src="/first.png" alt="" />
+          <img class="w-full" src="/first.png" alt="" />
         </div>
       </div>
 
@@ -44,7 +44,7 @@
           </p>
         </div>
         <div class="col-span-2">
-            <img src="/about2.png" alt="">
+            <img class="w-full" src="/about2.png" alt="">
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white p-10" >
+    <div class="bg-white p-10 hover:shadow-2xl" >
         <div  >
             <img v-if="item.img" class="pb-8" :src="item.img" alt="">
             <div v-if="!item.img" class="py-[34px]"></div>
