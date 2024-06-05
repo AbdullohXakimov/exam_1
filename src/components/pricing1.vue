@@ -28,7 +28,16 @@
     <template v-for="item2 in item.arr1" :key="item2.id">
       <InsidePricing :item2="item2" />
     </template>
-    <button class="m-16 px-16 py-4 bg-[#FCD980] rounded-[41px] font-bold text-[20px] leading-[32px] hover:bg-[#a0843e8f]">{{ item.button }}</button>
+    <button
+      :class="
+        item.id != 2
+          ? 'bg-[#282938] text-white hover:bg-black hover:text-[#ccc]'
+          : ' text-black bg-[#f0c863] hover:bg-[#a0843e8f]'
+      "
+      class="m-16 px-16 py-4 rounded-[41px] font-bold text-[20px] leading-[32px]"
+    >
+      {{ item.button }}
+    </button>
   </div>
 </template>
 
