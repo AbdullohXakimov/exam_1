@@ -5,7 +5,7 @@ import Header from "./components/Header.vue";
 
 <template>
   <div>
-    <Header class="fixed w-full z-20"/>
+    <Header />
     <router-view></router-view>
     <Footer />
   </div>
