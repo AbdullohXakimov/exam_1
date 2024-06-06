@@ -174,7 +174,7 @@
           Features
         </h3>
         <h2
-          class="leading-[64px] text-[48px] text-center text-[#282938] font-semibold mx-auto w-[600px] p-2 pb-10"
+          class="leading-[64px] text-[48px] text-center text-[#282938] font-semibold mx-auto md:w-[600px] p-2 pb-10"
         >
           Design that solves problems, one product at a time
         </h2>
