@@ -16,7 +16,7 @@
         {{ item.type }}
       </p>
     </div>
-    <h3 class="text-[26px] leading-[36px] font-semibold px-10 py-6">
+    <h3 class=" h-84 text-[26px] leading-[36px] font-semibold px-10 py-6">
       {{ item.header }}
     </h3>
     <p

@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="bg-[#1C1E53]">
-      <div class="container flex py-40 items-center">
-        <div class="w-6/12 pr-[136px]">
+      <div class="container md:flex py-40 items-center">
+        <div class="md:w-6/12 pr-[136px] mb-10 md:mb-0 ml-28 md:ml-0">
           <h1 class="font-semibold text-[54px] leading-[74px] text-white">
             Building stellar websites for early startups
           </h1>
@@ -35,7 +35,7 @@
             </button>
           </div>
         </div>
-        <div class="w-6/12">
+        <div class="md:w-6/12">
           <img  class="w-full" src="/Illustration.png" alt="" />
         </div>
       </div>
@@ -44,7 +44,7 @@
 
     <div>
       <div class="container my-10">
-        <div class="flex justify-between items-center">
+        <div class="md:flex justify-between items-center">
           <h2 class="text-[#282938] text-[48px] font-semibold">
             View our projects
           </h2>
@@ -64,8 +64,8 @@
             </svg>
           </button>
         </div>
-        <div class="grid grid-cols-3 gap-4 gap-y-2 pt-10">
-          <div class="overflow-hidden group relative col-span-2">
+        <div class="grid grid-cols-1 md:grid-cols-3 md:gap-4 md:gap-y-2 gap-10 pt-10">
+          <div class="overflow-hidden group relative md:col-span-2">
             <img class="w-full" src="/Card.png" alt="" />
             <div
               class="w-[47%] absolute -left-full group-hover:left-0 duration-500 top-0 h-[100%] bg-[#12155cad] z-10 flex flex-col justify-end pb-20"
@@ -104,7 +104,7 @@
           </div>
 
           <div class="">
-            <div class="relative ml-2 overflow-hidden group mb-2">
+            <div class="relative md:ml-2 overflow-hidden group mb-2">
               <img class="w-[100%]" src="/second.png" alt="" />
               <div
                 class="w-[100%] absolute -left-full duration-500 group-hover:left-0 top-0 h-[100%] bg-[#12155cad] z-10 flex flex-col justify-end p-10"
@@ -133,7 +133,7 @@
                 </button>
               </div>
             </div>
-            <div class="relative ml-2 overflow-hidden group" >
+            <div class="relative md:ml-2 overflow-hidden group" >
               <img class="ml-2 pt-8 w-full" src="/third.png" alt="" />
             <div
                 class="w-[100%] absolute -left-full duration-500 group-hover:left-0 top-0 h-[100%] bg-[#12155cad] z-10 flex flex-col justify-end p-10"
@@ -178,7 +178,7 @@
         >
           Design that solves problems, one product at a time
         </h2>
-        <div class="grid grid-cols-3 gap-x-8 gap-y-5">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-8  gap-y-10 md:gap-y-5">
           <template v-for="item in gridDatas" :key="item.id">
             <Grid1 :item />
           </template>
@@ -189,9 +189,9 @@
     <!-- Clients -->
 
     <div class="bg-[#F4F6FC]">
-      <div class="container flex">
-        <div class="w-1/4">
-          <h2 class="leading-[56px] text-[40px] text-[#282938] font-semibold">
+      <div class="container md:flex">
+        <div class="md:w-1/4">
+          <h2 class=" ml-10 leading-[56px] text-[40px] text-[#282938] font-semibold">
             What our clients say about us
           </h2>
           <p class="leading-[28px] text-[#282938] pt-6">
