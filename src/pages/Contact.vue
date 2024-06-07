@@ -18,7 +18,7 @@
             <Contact1 :item="item" class="mx-auto w-[380px]"/>
           </template>
         </div>
-        <div class="mx-auto w-[380px]" >
+        <div class="mx-auto w-[380px] md:mx-0 md:w-full" >
           <h3 class="md:ml-16 text-black text-[20px] leading-[32px] font-medium py-2">
             Message
           </h3>
