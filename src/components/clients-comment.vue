@@ -5,7 +5,7 @@
     </h2>
     <div class="flex justify-between items-center pt-10 pb-20">
       <div class="flex gap-4 items-center">
-        <img :src="clientsComment[id].image" alt="" />
+        <img class="" :src="clientsComment[id].image" alt="" />
         <div>
           <h3 class="leading-[32px] text-[20px] text-[#282938]">
             {{ clientsComment[id].fullName }}

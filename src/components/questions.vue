@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="border-b pb-4 pt-4">
-      <div class="flex justify-between items-center ml-10">
+      <div class="flex justify-between items-center md:ml-10">
         <div class="flex gap-10">
           <p class="text-[#2405F2] text-[26px] leading-[36px]">{{ item.id }}</p>
           <p class="text-primary text-[26px] leading-[36px]">{{ item.question }}</p>

@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="container">
-      <div class="pt-60 w-[580px] mx-auto">
+      <div class="pt-60 md:w-[580px] mx-auto">
         <h1
-          class="text-primary text-[50px] leading-[64px] font-bold text-center"
+          class="text-primary text-[36px] md:text-[50px] leading-[46px] md:leading-[64px] font-bold text-center"
         >
           Our Pricing Plans
         </h1>
         <p
-          class="text-[#282938] pt-5 pb-14 text-[18px] leading-[28px] font-medium text-center"
+          class="text-[#282938] pt-5 pb-14 text-[18px] leading-[28px] font-medium text-center mx-10"
         >
           When you’re ready to go beyond prototyping in Figma, Webflow is ready
           to help you bring your designs to life — without coding them.
@@ -22,9 +22,9 @@
       </div>
 
       <!-- Frequently Question  -->
-      <div class="flex my-20 justify-between">
-        <div class="w-[30%]">
-          <h2 class="text-[50px] leading-[64px] text-primary font-bold">
+      <div class="md:flex my-20 justify-between">
+        <div class="md:w-[30%] md:m-0 mx-10 my-10">
+          <h2 class="text-[36px] md:text-[50px] leading-[46px] md:leading-[64px] text-primary font-bold">
             Frequently asked questions
           </h2>
           <p class="text-[20px] leading-[32px] text-[#2405F2] mt-5">
@@ -32,7 +32,7 @@
           </p>
         </div>
 
-        <div class="flex flex-col w-[65%]">
+        <div class="md:flex flex-col md:w-[65%] mx-5 md:m-0">
           <template v-for="item in questions" :key="item.id">
             <Questions :item="item" />
           </template>

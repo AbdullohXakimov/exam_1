@@ -2,10 +2,10 @@
   <div>
     <div class="container">
       <!-- Intro_1 -->
-      <div class="flex justify-between items-center pt-52 pb-32">
-        <div class="w-1/2 pr-36">
-          <h3 class="text-primary text-[20px] leading-[32px]">About us</h3>
-          <h1 class="text-primary text-[56px] font-bold leading-[74px] pb-5">
+      <div class="md:flex justify-between items-center pt-52 pb-32">
+        <div class="md:w-1/2 md:pr-36">
+          <h3 class="text-primary text-[20px] leading-[32px] text-center md:text-start">About us</h3>
+          <h1 class="text-primary md:text-[56px] font-bold md:leading-[74px] pb-5 text-[30px] text-center md:text-start leading-[40px] ">
             Our designs solve problems
           </h1>
           <p class="text-primary text-[18px] leading-[28px]">
@@ -20,7 +20,7 @@
       </div>
 
       <!-- Intro_2 -->
-      <div class="grid grid-cols-2 bg-[#F4F5F5] mb-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 bg-[#F4F5F5] mb-20">
         <div class="py-16 pl-14 pr-16" >
           <h2 class="text-primary text-[40px] font-bold leading-[56px]">
             Goal focussed
@@ -32,7 +32,7 @@
             aliquip ex ea commodo consequat.
           </p>
         </div>
-        <div class="py-16 pr-24" >
+        <div class="py-16  px-16 md:pr-24" >
           <h2 class="text-primary text-[40px] font-bold leading-[56px]">
             Continuous improvement
           </h2>
@@ -43,7 +43,7 @@
             aliquip ex ea commodo consequat.
           </p>
         </div>
-        <div class="col-span-2">
+        <div class="md:col-span-2">
             <img class="w-full" src="/about2.png" alt="">
         </div>
       </div>
@@ -51,7 +51,7 @@
     <div class="bg-[#F4F6FC]">
         <div class="container">
             <h2 class="text-primary text-[50px] leading-[64px] font-bold text-center pt-28 pb-8" >Meet our team</h2>
-            <div class="grid grid-cols-4 gap-6 pb-28">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 pb-28">
                 <template v-for="item in teamMembers" :key="item.id" >
                     <Team :item="item" />
                 </template>
