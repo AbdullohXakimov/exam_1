@@ -1,6 +1,6 @@
 <template>
-  <div class="w-3/4 pl-[120px] pr-3">
-    <h2 class="leading-[48px] text-[36px] text-[#282938] font-medium">
+  <div class="md:w-3/4 md:pl-[120px] pr-3">
+    <h2 class="md:leading-[48px] md:text-[36px] text-[#282938] font-medium">
       {{ clientsComment[id].text }}
     </h2>
     <div class="flex justify-between items-center pt-10 pb-20">
