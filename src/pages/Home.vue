@@ -2,7 +2,7 @@
   <div>
     <div class="bg-[#1C1E53]">
       <div class="container md:flex py-40 items-center">
-        <div class="md:w-6/12 md:pr-[136px] mb-10 md:mb-0 ml-28 md:ml-0">
+        <div class="md:w-6/12 md:pr-[136px] mb-10 md:mb-0 mx-5 md:ml-0">
           <h1 class="font-semibold md:text-[54px] text-[30px] leading-[40px] md:leading-[74px] text-white">
             Building stellar websites for early startups
           </h1>
@@ -191,10 +191,10 @@
     <div class="bg-[#F4F6FC]">
       <div class="container md:flex">
         <div class="md:w-1/4">
-          <h2 class=" ml-10 leading-[56px] text-[40px] text-[#282938] font-semibold">
+          <h2 class=" ml-10 leading-[56px] text-[40px] text-[#282938] font-semibold mx-5 md:mx-0">
             What our clients say about us
           </h2>
-          <p class="leading-[28px] text-[#282938] pt-6">
+          <p class="leading-[28px] text-[#282938] pt-6 mx-5 md:mx-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
           </p>
         </div>
