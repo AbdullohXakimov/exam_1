@@ -2,11 +2,11 @@
   <div>
     <div>
         <img class="w-full" :src="item.img" alt="" />
-        <p class="text-[17px] leading-[28px]  mt-4 mb-2 opacity-[70%] text-primary font-medium" >{{ item.data }}</p>
-        <h3 class="text-[26px] leading-[36px]  mt-4 mb-2  text-primary text-justify  font-bold" >
+        <p class="md:text-[17px] md:leading-[28px] text-[14px] leading-[24px]  mt-4 mb-2 opacity-[70%] text-primary font-medium" >{{ item.data }}</p>
+        <h3 class="text-[18px] leading-[28px] md:text-[26px] md:leading-[36px]  mt-4 mb-2  text-primary text-justify  font-bold" >
         {{ item.text }}
         </h3>
-        <p class="text-[17px] leading-[28px] font-medium opacity-[70%] text-primary" >{{ item.content }}</p>
+        <p class="text-[14px] leading-[24px] md:text-[17px] md:leading-[28px] font-medium opacity-[70%] text-primary" >{{ item.content }}</p>
         <button class="flex items-center gap-2 mt-5 leading-[28px] font-medium text-[18px]   text-primary" >
             <span class="">Read more</span>
             <svg width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">

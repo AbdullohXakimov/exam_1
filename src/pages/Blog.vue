@@ -2,7 +2,7 @@
   <div>
     <div class="container pt-52">
       <h1
-        class="text-[50px] font-bold leading-[64px] text-center text-primary w-[825px] mx-auto"
+        class="md:text-[50px] text-[36px] font-bold md:leading-[64px] leading-[46px] mx-10 text-center text-primary md:w-[825px] md:mx-auto"
       >
         A UX Case Study on Creating a Studious Environment for Students
       </h1>
@@ -13,7 +13,7 @@
       </p>
       <img class="w-full" src="/blog1.png" alt="" />
       <p
-        class="text-[18px] leading-[28px] text-center text-primary mt-10 mb-6 w-[825px] mx-auto"
+        class="text-[18px] leading-[28px] text-center text-primary mt-10 mb-6 mx-10 md:w-[825px] md:mx-auto"
       >
         Apparently we had reached a great height in the atmosphere, for the sky
         was a dead black, and the stars had ceased to twinkle. By the same
@@ -25,10 +25,12 @@
       >
         Read more
       </button>
-      <h2 class="text-[50px] leading-[64px] font-bold text-center text-primary mb-10">
+      <h2
+        class="text-[50px] leading-[64px] font-bold text-center text-primary mb-10"
+      >
         Our Blog
       </h2>
-      <div class="grid grid-cols-3 gap-x-10 gap-y-14 mb-20">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-14 mb-20">
         <template v-for="item in gridDatas" :key="item.id">
           <BlogGrid :item="item" />
         </template>

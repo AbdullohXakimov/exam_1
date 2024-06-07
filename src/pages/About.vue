@@ -8,7 +8,7 @@
           <h1 class="text-primary md:text-[56px] font-bold md:leading-[74px] pb-5 text-[30px] text-center md:text-start leading-[40px] ">
             Our designs solve problems
           </h1>
-          <p class="text-primary text-[18px] leading-[28px]">
+          <p class="text-primary text-[18px] leading-[28px] md:m-0 mx-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam.
