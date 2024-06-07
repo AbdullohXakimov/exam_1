@@ -12,20 +12,20 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore.
       </p>
-      <div class="w-[1060px] mx-auto bg-[#F4F6FC]">
-        <div class="grid grid-cols-2 pt-16 px-16 pb-4 gap-x-14 gap-y-4">
+      <div class="md:w-[1060px] md:mx-auto bg-[#F4F6FC]">
+        <div class="grid grid-cols-1 md:grid-cols-2 pt-16 md:px-16 pb-4 gap-x-14 gap-y-4">
           <template v-for="item in contactDatas" :key="item.id">
-            <Contact1 :item="item" />
+            <Contact1 :item="item" class="mx-auto"/>
           </template>
         </div>
-        <div>
-          <h3 class="ml-16 text-black text-[20px] leading-[32px] font-medium py-2">
+        <div class="mx-auto w-[430px]" >
+          <h3 class="md:ml-16 text-black text-[20px] leading-[32px] font-medium py-2">
             Message
           </h3>
 
-          <input class="ml-16 py-4 pl-4 pb-20 w-[924px] border rounded-[8px] mb-10" type="text" placeholder="Write your  question here" />
+          <input class="md:ml-16 py-4 pl-4 pb-20 md:w-[924px] w-[430px] border rounded-[8px] mb-10" type="text" placeholder="Write your  question here" />
         </div>
-        <button class="ml-16 bg-primary text-white text-[20px] leading-[32px] font-medium py-4 px-16 rounded-[42px] mb-16 hover:bg-black">
+        <button class="md:ml-16 bg-primary text-white text-[20px] leading-[32px] font-medium py-4 px-16 rounded-[42px] mb-16 hover:bg-black">
             Send Messege
         </button>
       </div>
