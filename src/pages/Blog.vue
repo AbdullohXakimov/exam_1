@@ -11,7 +11,7 @@
       >
         Posted on 27th January 2021
       </p>
-      <img class="w-full" src="/blog1.png" alt="" />
+      <img class="w-full md:mx-0 mx-5" src="/blog1.png" alt="" />
       <p
         class="text-[18px] leading-[28px] text-center text-primary mt-10 mb-6 mx-10 md:w-[825px] md:mx-auto"
       >

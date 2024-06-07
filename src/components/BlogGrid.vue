@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="md:m-0 mx-10"  >
+    <div class="md:m-0 mx-5"  >
         <img class="w-full" :src="item.img" alt="" />
         <p class="md:text-[17px] md:leading-[28px] text-[14px] leading-[24px]  mt-4 mb-2 opacity-[70%] text-primary font-medium" >{{ item.data }}</p>
         <h3 class="text-[18px] leading-[28px] md:text-[26px] md:leading-[36px]  mt-4 mb-2  text-primary text-justify  font-bold" >
