@@ -3,7 +3,7 @@
     <div class="bg-[#1C1E53]">
       <div class="container md:flex py-40 items-center">
         <div class="md:w-6/12 pr-[136px] mb-10 md:mb-0 ml-28 md:ml-0">
-          <h1 class="font-semibold text-[54px] leading-[74px] text-white">
+          <h1 class="font-semibold md:text-[54px] md:leading-[74px] text-white">
             Building stellar websites for early startups
           </h1>
           <p class="font-medium text-[16px] text-white py-8">
