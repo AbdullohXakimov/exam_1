@@ -15,15 +15,15 @@
       <div class="md:w-[1060px] md:mx-auto bg-[#F4F6FC]">
         <div class="grid grid-cols-1 md:grid-cols-2 pt-16 md:px-16 pb-4 gap-x-14 gap-y-4">
           <template v-for="item in contactDatas" :key="item.id">
-            <Contact1 :item="item" class="mx-auto"/>
+            <Contact1 :item="item" class="mx-auto w-[380px]"/>
           </template>
         </div>
-        <div class="mx-auto w-[430px]" >
+        <div class="mx-auto w-[380px]" >
           <h3 class="md:ml-16 text-black text-[20px] leading-[32px] font-medium py-2">
             Message
           </h3>
 
-          <input class="md:ml-16 py-4 pl-4 pb-20 md:w-[924px] w-[430px] border rounded-[8px] mb-10" type="text" placeholder="Write your  question here" />
+          <input class="md:ml-16 py-4 pl-4 pb-20 md:w-[924px] w-[380px] border rounded-[8px] mb-10" type="text" placeholder="Write your  question here" />
         </div>
         <button class="md:ml-16 bg-primary text-white text-[20px] leading-[32px] font-medium py-4 px-16 rounded-[42px] mb-16 hover:bg-black">
             Send Messege
